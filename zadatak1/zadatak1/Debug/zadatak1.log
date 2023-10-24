@@ -1,0 +1,4 @@
+﻿  zadatak1.c
+C:\Users\Administratör\Desktop\strukture_podataka\zadatak1\zadatak1\zadatak1.c(13,7): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administratör\Desktop\strukture_podataka\zadatak1\zadatak1\zadatak1.c(19,9): warning C4101: 'j': unreferenced local variable
+C:\Users\Administratör\Desktop\strukture_podataka\zadatak1\zadatak1\zadatak1.c(19,6): warning C4101: 'i': unreferenced local variable
