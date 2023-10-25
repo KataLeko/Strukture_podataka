@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e1072de6-22d5-4289-8df5-4ea369fb1051}</ProjectGuid>
-    <RootNamespace>zadatak2</RootNamespace>
+    <ProjectGuid>{a3d8f0d9-ddf8-4a19-b415-3de10279fa07}</ProjectGuid>
+    <RootNamespace>zadataak2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="zadatak2.c" />
+    <ClCompile Include="z2.c">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No</SDLCheck>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

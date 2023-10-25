@@ -1,0 +1,4 @@
+﻿  z2.c
+C:\Users\Administratör\Desktop\strukture_podataka\zadatak2\zadataak2\z2.c(18,11): warning C4101: 'temp': unreferenced local variable
+C:\Users\Administratör\Desktop\strukture_podataka\zadatak2\zadataak2\z2.c(35,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administratör\Desktop\strukture_podataka\zadatak2\zadataak2\z2.c(51,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
