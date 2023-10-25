@@ -12,7 +12,7 @@ int main() {
 
 	FILE* fs;
 	fs = fopen("studenti.txt", "r");
-
+	 
 	if (fs == NULL) {
 		printf("nemoguce otvorit datoteku");
 		exit(1);
@@ -27,22 +27,25 @@ int main() {
 			++n;
 		}
 	}
+	fclose(fs);
 	_student* s;
 	s = (_student*)malloc(n * sizeof(_student));
-
+	fs = fopen("studenti.txt", "r");
 	for (i = 0; i < n; i++) {
-		fscanf(fs, "%s %s", (s+i)->ime, (s+i)->prezime);
+		fscanf(fs, "%s %s", (s + i)->ime, (s + i)->prezime);
+
 		fscanf(fs, "%d", &s[i].brBod);
 	}
-	fclose(fs);
+	
 
 	
 	for (i = 0; i < n; i++) {
 		relbrBod = (float)s[i].brBod / (float)max_bod * 100;
-		printf("\nime: %s\tprezime:%s\t aps.bodovi:%d\t rel.bodovi:%f\n ", s[i].ime, s[i].prezime, s[i].brBod, relbrBod);
+		printf("\nime: %s\tprezime:%s\t aps.bodovi:%d\t rel.bodovi:%.2f\n ", s[i].ime, s[i].prezime, s[i].brBod, relbrBod);
 
 	
 	}
+	fclose(fs);
 	
 	return 0;
 
