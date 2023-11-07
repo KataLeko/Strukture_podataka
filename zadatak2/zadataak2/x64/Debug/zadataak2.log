@@ -1,1 +1,2 @@
-﻿  zadataak2.vcxproj -> C:\Users\Administratör\Desktop\strukture_podataka\zadatak2\x64\Debug\zadataak2.exe
+﻿z2.obj : error LNK2019: unresolved external symbol FindPrev referenced in function Delete
+C:\Users\Administratör\Desktop\strukture_podataka\zadatak2\x64\Debug\zadataak2.exe : fatal error LNK1120: 1 unresolved externals
