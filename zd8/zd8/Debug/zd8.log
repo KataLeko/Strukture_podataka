@@ -1,0 +1,16 @@
+﻿  zad8.c
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(45,24): warning C4047: '=': 'position' differs in levels of indirection from 'int'
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(50,25): warning C4047: '=': 'position' differs in levels of indirection from 'int'
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(55,26): warning C4047: '=': 'position' differs in levels of indirection from 'int'
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(61,10): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(30,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(34,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(39,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(61,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(73,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(111,35): warning C4047: '=': 'position' differs in levels of indirection from 'int'
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(113,37): warning C4047: '=': 'position' differs in levels of indirection from 'int'
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(121,36): warning C4047: '=': 'position' differs in levels of indirection from 'int'
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(122,38): warning C4047: '=': 'position' differs in levels of indirection from 'int'
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(129,37): warning C4047: '=': 'position' differs in levels of indirection from 'int'
+C:\Users\Administratör\Desktop\strukture_podataka\zd8\zd8\zad8.c(130,39): warning C4047: '=': 'position' differs in levels of indirection from 'int'
