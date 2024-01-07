@@ -17,6 +17,7 @@ position insert(position root, int el);
 int inorder(position root);
 int preorder(position root);
 int postorder(position root);
+int levelorder(position root);
 position searchnode(position root, int el);
 position deletenode(position root, int el);
 position findmin(position root);
@@ -191,3 +192,36 @@ position findmin(position root) {
 		}
 	}
 }
+
+int levelorder(position root) {
+	if (root == NULL) {
+		return NULL;
+	}
+
+	position queue[100] = { 0 };
+	int front = 0;
+	int rear = 0;
+
+	queue[rear++] = root;
+	
+	while (front < rear) {
+		position current = queue[front++];
+
+		printf("%d", current->el);
+
+		if (current->left != NULL)							  
+			queue[rear++] = current->left;
+
+		if (current->right != NULL)
+			queue[rear++] = current->right;
+
+	}
+
+	return 0;
+
+
+
+
+}
+
+
